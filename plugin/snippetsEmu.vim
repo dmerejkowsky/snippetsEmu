@@ -176,7 +176,7 @@ function! s:SnipMapKeys()
     if s:supInstalled == 1
       exec 'imap '.g:snippetsEmu_key.' <Plug>Jumper'
     else
-      exec 'imap <unique> '.g:snippetsEmu_key.' <Plug>Jumper'
+      exec 'imap '.g:snippetsEmu_key.' <Plug>Jumper'
     endif
   endif
 
